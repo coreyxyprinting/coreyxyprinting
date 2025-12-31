@@ -4,16 +4,19 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Order a Print · CoreyXYPrinting</title>
-  <meta name="description" content="CoreyXYPrinting prints your 3D designs on a Bambu Lab printer. Upload your file, get a quote, and receive a clean, accurate print." />
+  <meta name="description" content="CoreyXYPrinting prints your 3D designs on a Bambu Lab printer." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/style.css" />
 </head>
-
 <body>
   <header class="nav">
     <div class="container nav-inner">
       <div class="brand">
-        <b>CoreyXYPrinting</b>
-        <span>3D printing from your designs</span>
+        <div class="mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l7 4v12l-7 4-7-4V6l7-4zm0 2.3L7 7v10l5 2.7 5-2.7V7l-5-2.7z"/></svg></div>
+        <div class="txt">
+          <b>CoreyXYPrinting</b>
+          <span>3D printing from your designs</span>
+        </div>
       </div>
       <nav class="menu">
         <a href="index.html">Home</a>
@@ -26,87 +29,50 @@
   </header>
 
   <main class="container">
-    <h1>Request a 3D Print Quote</h1>
-    <p>Upload your file and tell me what you need. I’ll reply with pricing and estimated turnaround.</p>
+  <h1>Request a 3D Print Quote</h1>
+  <p>Upload your file and tell me what you need. I’ll reply with pricing and estimated turnaround.</p>
 
-    <div class="notice">
-      <b>Customer-supplied designs only</b><br/>
-      <span class="small" style="color:var(--muted)">
-        By submitting a model, you confirm you own the rights or have permission to print it.
-      </span>
+  <div class="notice">
+    <b>Customer-supplied designs only</b><br/>
+    <span class="small" style="color:var(--muted)">By submitting a model, you confirm you own the rights or have permission to print it.</span>
+  </div>
+
+  <div class="grid" style="margin-top:16px">
+    <div class="card half">
+      <h2>Request a Quote</h2>
+      <p class="small" style="color:var(--muted); margin-bottom:10px;">A Google account is required to upload files.</p>
+      <div class="hr"></div>
+      <p class="small" style="margin-bottom:16px;">Click the button below to open the quote request form in a new tab.</p>
+
+      <a class="btn"
+         href="https://docs.google.com/forms/d/e/1FAIpQLSeduz8AT--T8pA7SqOqPaRhmAkILVfZqiS3av_zX-8Y4T2FAA/viewform"
+         target="_blank" rel="noopener noreferrer">
+        Open Quote Request Form
+      </a>
+
+      <div class="hr"></div>
+      <p class="small" style="color:var(--muted)">Tip: If you’re uploading multiple files (or a ZIP), mention it in the notes so I know everything that’s included.</p>
     </div>
 
-    <div class="grid" style="margin-top:16px">
-      <!-- LEFT COLUMN: ACTION -->
-      <div class="card half">
-        <h2>Request a Quote</h2>
-
-        <p class="small" style="color:var(--muted); margin-bottom:10px;">
-          A Google account is required to upload files.
-        </p>
-
-        <div class="hr"></div>
-
-        <p class="small" style="margin-bottom:16px;">
-          Click the button below to open the quote request form in a new tab.
-        </p>
-
-        <a
-          class="btn"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeduz8AT--T8pA7SqOqPaRhmAkILVfZqiS3av_zX-8Y4T2FAA/viewform"
-          target="_blank"
-          rel="noopener noreferrer">
-          Open Quote Request Form
-        </a>
-
-        <div class="hr"></div>
-
-        <p class="small" style="color:var(--muted)">
-          Tip: If you’re uploading multiple files (or a ZIP), mention it in the notes so I know everything that’s included.
-        </p>
+    <div class="card half">
+      <h2>What to include</h2>
+      <div class="kv">
+        <div><b>Material</b><br/><span class="small" style="color:var(--muted)">PLA / PETG (TPU by request)</span></div>
+        <div><b>Quality</b><br/><span class="small" style="color:var(--muted)">Draft / Standard / High</span></div>
+        <div><b>Quantity</b><br/><span class="small" style="color:var(--muted)">How many copies you need</span></div>
+        <div><b>Delivery</b><br/><span class="small" style="color:var(--muted)">Pickup or shipping</span></div>
       </div>
-
-      <!-- RIGHT COLUMN: INFO -->
-      <div class="card half">
-        <h2>What to include</h2>
-
-        <div class="kv">
-          <div>
-            <b>Material</b><br/>
-            <span class="small" style="color:var(--muted)">PLA / PETG (TPU by request)</span>
-          </div>
-          <div>
-            <b>Quality</b><br/>
-            <span class="small" style="color:var(--muted)">Draft / Standard / High</span>
-          </div>
-          <div>
-            <b>Quantity</b><br/>
-            <span class="small" style="color:var(--muted)">How many copies you need</span>
-          </div>
-          <div>
-            <b>Delivery</b><br/>
-            <span class="small" style="color:var(--muted)">Pickup or shipping</span>
-          </div>
-        </div>
-
-        <div class="hr"></div>
-
-        <p class="small">
-          If you’re unsure about any settings, select <b>“Not sure”</b> and I’ll recommend the best option.
-        </p>
-      </div>
+      <div class="hr"></div>
+      <p class="small">If you’re unsure about any settings, select <b>“Not sure”</b> and I’ll recommend the best option.</p>
     </div>
+  </div>
+
   </main>
 
   <footer class="container footer">
     <div class="hr"></div>
     <div>© 2025 CoreyXYPrinting. Customer-supplied designs only.</div>
-    <div class="small">
-      Questions? Email
-      <a href="mailto:coreyxyprinting@thecoreygroup.com">
-        coreyxyprinting@thecoreygroup.com
-      </a>
-    </div>
+    <div class="small">Questions? <a href="mailto:coreyxyprinting@thecoreygroup.com">coreyxyprinting@thecoreygroup.com</a></div>
   </footer>
 </body>
 </html>
