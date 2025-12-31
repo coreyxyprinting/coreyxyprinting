@@ -4,9 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Pricing · CoreyXYPrinting</title>
-  <meta name="description" content="CoreyXYPrinting prints your 3D designs on a Bambu Lab printer." />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta name="description" content="CoreyXYPrinting prints your 3D designs on a Bambu Lab printer—clean, accurate prints from customer-supplied models." />
   <link rel="stylesheet" href="assets/style.css" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#0b1020">
+
 </head>
 <body>
   <header class="nav">
@@ -29,45 +36,54 @@
   </header>
 
   <main class="container">
+  <span class="kicker">Transparent pricing • No surprises</span>
   <h1>Pricing</h1>
-    <p>Every print is quoted based on size, material usage, print time, and complexity. You’ll always get a quote before anything is printed.</p>
-  
-    <div class="grid">
-      <div class="card half">
-        <h2>What pricing includes</h2>
-        <ul>
-          <li>Print setup & machine time</li>
-          <li>Material cost</li>
-          <li>Basic cleanup (support removal where applicable)</li>
-          <li>Quality check before delivery</li>
-        </ul>
-        <div class="hr"></div>
-        <p><b>Minimum job:</b> $15</p>
+  <p>Every part is a little different, so I quote based on material, size, and print time. Here’s how pricing is structured so you know what to expect.</p>
+
+  <div class="grid" style="margin-top:16px">
+    <div class="card twothirds">
+      <h2>How quotes are calculated</h2>
+      <div class="kv">
+        <div><b>Material + weight</b><br/><span class="small">Filament used (grams) + waste</span></div>
+        <div><b>Print time</b><br/><span class="small">Machine time and complexity</span></div>
+        <div><b>Setup + cleanup</b><br/><span class="small">Supports, post-processing, fit checks</span></div>
+        <div><b>Shipping</b><br/><span class="small">If needed (label + packaging)</span></div>
       </div>
-  
-      <div class="card half">
-        <h2>Common add-ons</h2>
-        <ul>
-          <li>Rush turnaround</li>
-          <li>Special materials/colors (when available)</li>
-          <li>Extra cleanup, sanding, or finishing (if requested)</li>
-          <li>Shipping (cost varies)</li>
-        </ul>
-      </div>
-  
-      <div class="card">
-        <h2>Fast quote checklist</h2>
-        <div class="kv">
-          <div><b>File</b><br/><span class="small" style="color:var(--muted)">STL/3MF preferred</span></div>
-          <div><b>Material + color</b><br/><span class="small" style="color:var(--muted)">PLA/PETG/TPU</span></div>
-          <div><b>Quality</b><br/><span class="small" style="color:var(--muted)">Draft/Standard/High</span></div>
-          <div><b>Quantity</b><br/><span class="small" style="color:var(--muted)"># of copies</span></div>
-        </div>
-        <div class="cta" style="margin-top:14px">
-          <a class="btn" href="order.html">Request a Quote</a>
-        </div>
+
+      <div class="hr"></div>
+      <p class="small">Want an exact price? Use the quote form—include your material and quality preference.</p>
+
+      <div class="cta">
+        <a class="btn" href="order.html">Request a Quote</a>
+        <a class="btn secondary" href="faq.html">FAQ</a>
       </div>
     </div>
+
+    <div class="card onethird">
+      <h2>Common quality levels</h2>
+      <div class="pricing">
+        <div class="price-card">
+          <span class="pill">Draft</span>
+          <div class="price">Fast</div>
+          <p class="small">Great for test fits and iterations.</p>
+        </div>
+        <div class="price-card">
+          <span class="pill">Standard</span>
+          <div class="price">Best</div>
+          <p class="small">Balance of speed and detail for most parts.</p>
+        </div>
+        <div class="price-card">
+          <span class="pill">High</span>
+          <div class="price">Detail</div>
+          <p class="small">Best finish and small features.</p>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+      <p class="small"><b>Minimum job:</b> I may apply a small minimum to cover setup time.</p>
+    </div>
+  </div>
+
   </main>
 
   <footer class="container footer">

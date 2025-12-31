@@ -4,9 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>FAQ · CoreyXYPrinting</title>
-  <meta name="description" content="CoreyXYPrinting prints your 3D designs on a Bambu Lab printer." />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta name="description" content="CoreyXYPrinting prints your 3D designs on a Bambu Lab printer—clean, accurate prints from customer-supplied models." />
   <link rel="stylesheet" href="assets/style.css" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#0b1020">
+
 </head>
 <body>
   <header class="nav">
@@ -29,36 +36,59 @@
   </header>
 
   <main class="container">
+  <span class="kicker">Quick answers</span>
   <h1>FAQ</h1>
-  
-    <div class="grid">
-      <div class="card half">
-        <h3>What file types do you accept?</h3>
-        <p>STL and 3MF preferred. OBJ accepted.</p>
-  
-        <h3>What materials do you offer?</h3>
-        <p>PLA and PETG standard. TPU by request.</p>
-  
-        <h3>Do you design parts?</h3>
-        <p>No—CoreyXYPrinting prints customer-supplied designs only.</p>
+  <p>Here are the most common questions about ordering prints from your designs.</p>
+
+  <div class="grid" style="margin-top:16px">
+    <div class="card twothirds">
+      <h2>Ordering</h2>
+      <details>
+        <summary>What file types do you accept?</summary>
+        <p>I prefer <b>STL</b> and <b>3MF</b>. OBJ is also ok. If you have multiple files, upload a ZIP and explain what each part is.</p>
+      </details>
+      <details>
+        <summary>Do you create designs?</summary>
+        <p>Right now I’m focused on printing customer-supplied designs. If you already have a model, I can print it.</p>
+      </details>
+      <details>
+        <summary>What materials can you print?</summary>
+        <p><b>PLA</b> and <b>PETG</b> by default. <b>TPU</b> available by request depending on the part.</p>
+      </details>
+      <details>
+        <summary>What’s typical turnaround?</summary>
+        <p>Most jobs are <b>1–3 business days after payment</b>, depending on size/complexity and current queue.</p>
+      </details>
+
+      <div class="hr"></div>
+
+      <h2>Quality & finishing</h2>
+      <details>
+        <summary>Can you improve strength?</summary>
+        <p>Yes—choosing PETG, adjusting wall count, infill, and orientation can improve strength. If you select “Not sure,” I’ll recommend settings.</p>
+      </details>
+      <details>
+        <summary>Do you remove supports and clean parts?</summary>
+        <p>Yes. I remove supports, clean edges, and do a quick quality check before delivery.</p>
+      </details>
+    </div>
+
+    <div class="card onethird">
+      <h2>Still have a question?</h2>
+      <p class="small">Send a note and I’ll reply quickly.</p>
+      <div class="cta">
+        <a class="btn" href="contact.html">Contact</a>
+        <a class="btn secondary" href="order.html">Request a Quote</a>
       </div>
-  
-      <div class="card half">
-        <h3>Can you print copyrighted models?</h3>
-        <p>Only if you own the rights or have permission to print the model.</p>
-  
-        <h3>How long does it take?</h3>
-        <p>Most small jobs are completed within 1–3 business days after payment.</p>
-  
-        <h3>Do you ship?</h3>
-        <p>Yes, or local pickup if arranged.</p>
-      </div>
-  
-      <div class="card">
-        <h2>Still have a question?</h2>
-        <p>Send a message on the <a href="contact.html">Contact</a> page or submit a quote request and include your question in the notes.</p>
+
+      <div class="hr"></div>
+      <div class="notice">
+        <b>Rights</b><br/>
+        <span class="small">By submitting a model, you confirm you have permission to print it.</span>
       </div>
     </div>
+  </div>
+
   </main>
 
   <footer class="container footer">

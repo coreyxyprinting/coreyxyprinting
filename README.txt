@@ -1,13 +1,17 @@
-CoreyXYPrinting website (free static site)
 
-Publish options:
-- GitHub Pages (free)
-- Cloudflare Pages (free)
-- Netlify (free)
+COREYXYPRINTING FAVICON PACKAGE
 
-To add your quote form:
-1) Create a Google Form
-2) Copy its embed iframe
-3) Paste into order.html where the placeholder is
+1) Upload the entire 'assets/icons' folder into your GitHub repo (replace if asked).
 
-Tip: You can also embed a form from Jotform/Typeform/etc. by replacing the iframe.
+2) Add the following inside <head> on every HTML page:
+
+<link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
+<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+<meta name="theme-color" content="#0b1020">
+
+3) Commit changes and wait ~1 minute for Cloudflare.
+
+4) Hard refresh:
+   macOS: Cmd + Shift + R

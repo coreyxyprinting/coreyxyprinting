@@ -3,28 +3,27 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>CoreyXYPrinting · Precision 3D Printing</title>
-  <meta name="description" content="CoreyXYPrinting offers fast, accurate 3D printing from your designs. Printed on a Bambu Lab printer with professional results." />
-
-  <!-- Styles -->
+  <title>Home · CoreyXYPrinting</title>
+  <meta name="description" content="CoreyXYPrinting prints your 3D designs on a Bambu Lab printer—clean, accurate prints from customer-supplied models." />
   <link rel="stylesheet" href="assets/style.css" />
 
-  <!-- Favicon (THIS FIXES HOME PAGE ISSUE) -->
+  <!-- Favicons -->
   <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg?v=2">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
   <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
   <meta name="theme-color" content="#0b1020">
-</head>
 
+</head>
 <body>
-  <!-- Navigation -->
   <header class="nav">
     <div class="container nav-inner">
       <div class="brand">
-        <b>CoreyXYPrinting</b>
-        <span>Precision 3D Printing</span>
+        <div class="mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l7 4v12l-7 4-7-4V6l7-4zm0 2.3L7 7v10l5 2.7 5-2.7V7l-5-2.7z"/></svg></div>
+        <div class="txt">
+          <b>CoreyXYPrinting</b>
+          <span>3D printing from your designs</span>
+        </div>
       </div>
       <nav class="menu">
         <a href="index.html" class="active">Home</a>
@@ -36,64 +35,108 @@
     </div>
   </header>
 
-  <!-- Hero -->
-  <main class="hero">
-    <div class="container hero-inner">
-      <h1>Professional 3D Printing<br>From Your Designs</h1>
-      <p>
-        Fast, accurate prints produced on a Bambu Lab printer.
-        Customer-supplied designs only.
-      </p>
+  <main class="container">
+  <section class="hero">
+    <svg class="hero-art" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs>
+    <linearGradient id="ha" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#ha)" stroke-width="2" opacity="0.9">
+    <path d="M300 60l190 110v220L300 500 110 390V170L300 60z"/>
+    <path d="M300 60v440"/>
+    <path d="M110 170l190 110 190-110"/>
+    <path d="M110 390l190-110 190 110"/>
+    <path d="M170 205l130 75 130-75"/>
+    <path d="M170 355l130-75 130 75"/>
+  </g>
+</svg>
+    <span class="kicker">Bambu Lab • Precision prints • Fast turnaround</span>
+    <h1>Professional 3D prints<br/>from <span style="background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent;">your designs</span></h1>
+    <p class="lead">Upload your STL/3MF/OBJ and I’ll produce clean, accurate prints—great for functional parts, prototypes, and small-batch runs. I’ll confirm pricing and turnaround before printing.</p>
 
-      <div class="hero-actions">
-        <a href="order.html" class="btn primary">Order a Print</a>
-        <a href="pricing.html" class="btn secondary">View Pricing</a>
+    <div class="cta">
+      <a class="btn" href="order.html">Request a Quote</a>
+      <a class="btn secondary" href="pricing.html">How pricing works</a>
+      <a class="btn ghost" href="contact.html">Ask a question</a>
+    </div>
+
+    <div class="card hero-card">
+      <div class="grid">
+        <div class="card third" style="box-shadow:none;background:transparent;border-color:rgba(255,255,255,.08)">
+          <div class="feature">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7 7h10v2H7V7zm0 4h10v2H7v-2zm0 4h7v2H7v-2zM5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg>
+            </div>
+            <div><b>Quote-ready intake</b><br/><span class="small">Upload file + specs, get a quick response</span></div>
+          </div>
+        </div>
+
+        <div class="card third" style="box-shadow:none;background:transparent;border-color:rgba(255,255,255,.08)">
+          <div class="feature">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2l4 8H8l4-8zm0 20l-7-12h14L12 22z"/></svg>
+            </div>
+            <div><b>Dialed-in quality</b><br/><span class="small">Draft • Standard • High (matched to your part)</span></div>
+          </div>
+        </div>
+
+        <div class="card third" style="box-shadow:none;background:transparent;border-color:rgba(255,255,255,.08)">
+          <div class="feature">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H7v4H4v12h16V8zM9 6h6v2H9V6z"/></svg>
+            </div>
+            <div><b>Reliable fulfillment</b><br/><span class="small">Printed, cleaned, shipped or pickup</span></div>
+          </div>
+        </div>
       </div>
     </div>
+  </section>
+
+  <div class="grid">
+    <div class="card half">
+      <h2>How it works</h2>
+      <div class="steps">
+        <div class="step"><div><b>Submit</b><br/><span class="small">Send STL/3MF/OBJ + material/quality/qty</span></div></div>
+        <div class="step"><div><b>Quote</b><br/><span class="small">I confirm price + turnaround</span></div></div>
+        <div class="step"><div><b>Pay</b><br/><span class="small">You receive an invoice/payment link</span></div></div>
+        <div class="step"><div><b>Print & deliver</b><br/><span class="small">Printed, cleaned, shipped or pickup</span></div></div>
+      </div>
+
+      <div class="hr"></div>
+      <div class="notice"><b>Rights reminder</b><br/><span class="small">I can only print models you own or have permission to print.</span></div>
+    </div>
+
+    <div class="card half">
+      <h2>Good fit for</h2>
+      <ul>
+        <li>Functional parts and replacements</li>
+        <li>Prototypes and iterations</li>
+        <li>Props and display pieces</li>
+        <li>Small-batch runs (multiple copies)</li>
+      </ul>
+
+      <div class="hr"></div>
+      <div class="kv">
+        <div><b>Files</b><br/><span class="small">STL & 3MF preferred • OBJ ok</span></div>
+        <div><b>Materials</b><br/><span class="small">PLA / PETG • TPU by request</span></div>
+      </div>
+
+      <div class="cta" style="margin-top:16px">
+        <a class="btn" href="order.html">Get a quote</a>
+        <a class="btn secondary" href="faq.html">Read FAQ</a>
+      </div>
+    </div>
+  </div>
+
   </main>
 
-  <!-- Features -->
-  <section class="container features">
-    <div class="card">
-      <h3>High Precision</h3>
-      <p>
-        Clean tolerances, sharp details, and consistent layer quality on every print.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Quality Materials</h3>
-      <p>
-        PLA and PETG available by default. TPU available upon request.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Simple Process</h3>
-      <p>
-        Upload your file, receive a quote, approve, and get your finished part.
-      </p>
-    </div>
-  </section>
-
-  <!-- Notice -->
-  <section class="container notice">
-    <strong>Customer-supplied designs only.</strong>
-    <p class="small">
-      By submitting a model, you confirm that you own the rights or have permission to print it.
-    </p>
-  </section>
-
-  <!-- Footer -->
   <footer class="container footer">
     <div class="hr"></div>
-    <div>© 2025 CoreyXYPrinting</div>
-    <div class="small">
-      Questions? Email
-      <a href="mailto:coreyxyprinting@thecoreygroup.com">
-        coreyxyprinting@thecoreygroup.com
-      </a>
-    </div>
+    <div>© 2025 CoreyXYPrinting. Customer-supplied designs only.</div>
+    <div class="small">Questions? <a href="mailto:coreyxyprinting@thecoreygroup.com">coreyxyprinting@thecoreygroup.com</a></div>
   </footer>
 </body>
 </html>
